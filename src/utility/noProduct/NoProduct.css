@@ -1,0 +1,161 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fef6e4, #fcd5ce);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .no-product-container {
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  .pizza-animation {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .pizza {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at center, #f8c471 60%, #e74c3c 70%);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: bounce 2s infinite ease-in-out;
+  }
+  
+  .pizza::before,
+  .pizza::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .pizza::before {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    top: 20px;
+    left: 30px;
+  }
+  
+  .pizza::after {
+    width: 15px;
+    height: 15px;
+    background: #d35400;
+    top: 40px;
+    left: 60px;
+  }
+  
+  .smoke {
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent);
+    border-radius: 10px;
+    animation: smoke 2s infinite ease-in-out;
+  }
+  
+  .smoke:nth-child(2) {
+    left: 30%;
+    animation-delay: 0.5s;
+  }
+  
+  .smoke:nth-child(3) {
+    left: 70%;
+    animation-delay: 1s;
+  }
+  
+  .no-product-message {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    font-weight: 600;
+    animation: slideIn 1s ease-out 1.2s forwards;
+    opacity: 0;
+  }
+  
+  .no-product-subtext {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #7f8c8d;
+    animation: fadeIn 1s ease-in-out 1.8s forwards;
+    opacity: 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #e74c3c;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    animation: fadeIn 1s ease-in-out 2s forwards;
+    opacity: 0;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #c0392b;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -45%) scale(1.1);
+    }
+  }
+  
+  @keyframes smoke {
+    0% {
+      opacity: 0;
+      transform: translateY(10px) scale(0.5);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(-10px) scale(0.8);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-30px) scale(1);
+    }
+  }
+   */
